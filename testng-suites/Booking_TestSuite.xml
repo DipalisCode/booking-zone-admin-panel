@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking Suite" parallel="false" verbose="3">
+	<parameter name="author" value="Dipali" />
+	<parameter name="userType" value="business" />
+
+	<test name="Booking Tests">
+		<classes>
+			<class
+				name="com.bookingzone.admin.FullPayment.TC001FullCardPayment" />
+			<class
+				name="com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking" />
+		</classes>
+	</test>
+
+</suite>

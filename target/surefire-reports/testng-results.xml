@@ -1,0 +1,182 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T05:47:24 GMT-04:00" name="Suite" finished-at="2024-04-01T05:47:59 GMT-04:00" duration-ms="34395">
+    <groups>
+    </groups>
+    <test started-at="2024-04-01T05:47:24 GMT-04:00" name="Create Package Time plan" finished-at="2024-04-01T05:47:59 GMT-04:00" duration-ms="34395">
+      <class name="All_TestClasses.TC006_CreatePackageTimePlan">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:24 GMT-04:00" name="initialiseExtentReports" finished-at="2024-04-01T05:47:24 GMT-04:00" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="Open_Brouser(org.testng.ITestContext)[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:24 GMT-04:00" name="Open_Brouser" finished-at="2024-04-01T05:47:43 GMT-04:00" duration-ms="19000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e94e331]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Brouser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:43 GMT-04:00" name="Login" finished-at="2024-04-01T05:47:58 GMT-04:00" duration-ms="15106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Create_PackageTestPlan()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:58 GMT-04:00" name="Create_PackageTestPlan" finished-at="2024-04-01T05:47:58 GMT-04:00" duration-ms="43" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e8aac1f5825025dc66e6763ea70ddaa, findElement {using=xpath, value=//div[text()='Outlets']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57016/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8aac1f5825025dc66e6763ea70ddaa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.86)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e8aac1f5825025dc66e6763ea70ddaa, findElement {using=xpath, value=//div[text()='Outlets']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57016}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57016/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e8aac1f5825025dc66e6763ea70ddaa
+at org.testng.Assert.fail(Assert.java:111)
+at All_TestClasses.TC006_CreatePackageTimePlan.Create_PackageTestPlan(TC006_CreatePackageTimePlan.java:258)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_PackageTestPlan -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:58 GMT-04:00" name="checkStatus" finished-at="2024-04-01T05:47:58 GMT-04:00" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void All_TestClasses.TC006_CreatePackageTimePlan.Create_PackageTestPlan() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Create_PackageTestPlan status=FAILURE method=TC006_CreatePackageTimePlan.Create_PackageTestPlan()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:58 GMT-04:00" name="teardown" finished-at="2024-04-01T05:47:59 GMT-04:00" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:All_TestClasses.TC006_CreatePackageTimePlan@47404bea]" started-at="2024-04-01T05:47:59 GMT-04:00" name="generateExtentReports" finished-at="2024-04-01T05:47:59 GMT-04:00" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- All_TestClasses.TC006_CreatePackageTimePlan -->
+    </test> <!-- Create Package Time plan -->
+  </suite> <!-- Suite -->
+</testng-results>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T08:20:32Z" name="Suite" finished-at="2023-07-22T08:23:32Z" duration-ms="179978">
+    <groups>
+    </groups>
+    <test started-at="2023-07-22T08:20:32Z" name="Card Payment" finished-at="2023-07-22T08:23:32Z" duration-ms="179978">
+      <class name="All_TestClasses.TestCreate_Booking_paymentCard">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:20:31Z" name="initialiseExtentReports" finished-at="2023-07-22T08:20:32Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="Open_Brouser(org.testng.ITestContext)[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:20:32Z" name="Open_Brouser" finished-at="2023-07-22T08:21:04Z" duration-ms="32846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6f289728]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Brouser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:21:04Z" name="Login" finished-at="2023-07-22T08:21:20Z" duration-ms="15190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Create_Booking_pay_ViaCard()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:21:20Z" name="Create_Booking_pay_ViaCard" finished-at="2023-07-22T08:23:31Z" duration-ms="131666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Booking_pay_ViaCard -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:23:31Z" name="checkStatus" finished-at="2023-07-22T08:23:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void All_TestClasses.TestCreate_Booking_paymentCard.Create_Booking_pay_ViaCard() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Create_Booking_pay_ViaCard status=SUCCESS method=TestCreate_Booking_paymentCard.Create_Booking_pay_ViaCard()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:23:31Z" name="teardown" finished-at="2023-07-22T08:23:32Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:All_TestClasses.TestCreate_Booking_paymentCard@2e54db99]" started-at="2023-07-22T08:23:32Z" name="generateExtentReports" finished-at="2023-07-22T08:23:33Z" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- All_TestClasses.TestCreate_Booking_paymentCard -->
+    </test> <!-- Card Payment -->
+  </suite> <!-- Suite -->
+</testng-results>
+>>>>>>> origin/master

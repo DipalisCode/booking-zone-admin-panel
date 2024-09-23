@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Create Package Time plan(failed)" verbose="0">
+    <parameter name="author" value="Dipali"/>
+    <classes>
+      <class name="All_TestClasses.TC006_CreatePackageTimePlan">
+        <methods>
+          <include name="Login"/>
+          <include name="teardown"/>
+          <include name="Open_Brouser"/>
+          <include name="initialiseExtentReports"/>
+          <include name="Create_PackageTestPlan"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReports"/>
+        </methods>
+      </class> <!-- All_TestClasses.TC006_CreatePackageTimePlan -->
+    </classes>
+  </test> <!-- Create Package Time plan(failed) -->
+</suite> <!-- Failed suite [Suite] -->

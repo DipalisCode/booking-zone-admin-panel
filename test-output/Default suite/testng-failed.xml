@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="All_TestClasses.TC006_CreatePackageTimePlan">
+        <methods>
+          <include name="Login"/>
+          <include name="Open_Brouser"/>
+          <include name="initialiseExtentReports"/>
+          <include name="teardown"/>
+          <include name="Create_PackageTestPlan"/>
+          <include name="checkStatus"/>
+          <include name="generateExtentReports"/>
+        </methods>
+      </class> <!-- All_TestClasses.TC006_CreatePackageTimePlan -->
+=======
+      <class name="All_TestClasses.fcsd">
+        <methods>
+          <include name="asd"/>
+        </methods>
+      </class> <!-- All_TestClasses.fcsd -->
+>>>>>>> origin/master
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

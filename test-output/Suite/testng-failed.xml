@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Booking Tests(failed)">
+    <parameter name="author" value="Dipali"/>
+    <classes>
+      <class name="com.bookingzone.admin.FullPayment.TC001FullCardPayment">
+        <methods>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+          <include name="initializeTest"/>
+          <include name="testCreateBookingWithCardPayment"/>
+          <include name="initialiseBrowser"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.bookingzone.admin.FullPayment.TC001FullCardPayment -->
+      <class name="com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking">
+        <methods>
+          <include name="checkStatusAndCaptureScreenshot"/>
+          <include name="teardownSuite"/>
+          <include name="initialiseBrowser"/>
+          <include name="initializeTest"/>
+          <include name="testChangeBookingStatusToInProgress"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking -->
+    </classes>
+  </test> <!-- Booking Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

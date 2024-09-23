@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-22T11:16:06 GMT-05:00" name="Booking Suite" finished-at="2024-09-22T11:19:23 GMT-05:00" duration-ms="197619">
+    <groups>
+    </groups>
+    <test started-at="2024-09-22T11:16:06 GMT-05:00" name="Booking Tests" finished-at="2024-09-22T11:19:23 GMT-05:00" duration-ms="197619">
+      <class name="com.bookingzone.admin.FullPayment.TC001FullCardPayment">
+        <test-method is-config="true" signature="initialiseBrowser(org.testng.ITestContext)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:15:40 GMT-05:00" name="initialiseBrowser" finished-at="2024-09-22T11:16:06 GMT-05:00" duration-ms="25900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56b704ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:16:06 GMT-05:00" name="initializeTest" finished-at="2024-09-22T11:16:07 GMT-05:00" duration-ms="847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56b704ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:16:07 GMT-05:00" name="setupTest" finished-at="2024-09-22T11:16:07 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzone.admin.FullPayment.TC001FullCardPayment.testCreateBookingWithCardPayment() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreateBookingWithCardPayment()[pri:1, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:16:07 GMT-05:00" name="testCreateBookingWithCardPayment" finished-at="2024-09-22T11:17:41 GMT-05:00" duration-ms="94138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithCardPayment -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:17:41 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2024-09-22T11:17:41 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBookingWithCardPayment status=SUCCESS method=TC001FullCardPayment.testCreateBookingWithCardPayment()[pri:1, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="teardownSuite()[pri:0, instance:com.bookingzone.admin.FullPayment.TC001FullCardPayment@77d2e85]" started-at="2024-09-22T11:19:23 GMT-05:00" name="teardownSuite" finished-at="2024-09-22T11:19:24 GMT-05:00" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- com.bookingzone.admin.FullPayment.TC001FullCardPayment -->
+      <class name="com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking">
+        <test-method is-config="true" signature="initializeTest(org.testng.ITestContext)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:17:41 GMT-05:00" name="initializeTest" finished-at="2024-09-22T11:17:41 GMT-05:00" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56b704ea]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method signature="testChangeBookingStatusToInProgress()[pri:2, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:17:41 GMT-05:00" name="testChangeBookingStatusToInProgress" finished-at="2024-09-22T11:18:00 GMT-05:00" depends-on-methods="com.bookingzone.admin.FullPayment.TC001FullCardPayment.testCreateBookingWithCardPayment" duration-ms="19488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeBookingStatusToInProgress -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:17:41 GMT-05:00" name="setupTest" finished-at="2024-09-22T11:17:41 GMT-05:00" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking.testChangeBookingStatusToInProgress() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:18:00 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2024-09-22T11:18:00 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChangeBookingStatusToInProgress status=SUCCESS method=TC001_EditFullCardPayBooking.testChangeBookingStatusToInProgress()[pri:2, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:18:00 GMT-05:00" name="setupTest" finished-at="2024-09-22T11:18:00 GMT-05:00" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking.testAddPackage_AdditionalGuest() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddPackage_AdditionalGuest()[pri:3, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:18:00 GMT-05:00" name="testAddPackage_AdditionalGuest" finished-at="2024-09-22T11:19:23 GMT-05:00" depends-on-methods="com.bookingzone.admin.FullPayment.TC001FullCardPayment.testCreateBookingWithCardPayment" duration-ms="82762" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to exception: Expected condition failed: waiting for visibility of element located by By.xpath: //table[contains(@class,'MuiTable-root')]//tbody/tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62138/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0882c9bf3c6cf240d19763e0bd5eec29]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to exception: Expected condition failed: waiting for visibility of element located by By.xpath: //table[contains(@class,'MuiTable-root')]//tbody/tr (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\dipal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62138}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62138/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0882c9bf3c6cf240d19763e0bd5eec29
+at org.testng.Assert.fail(Assert.java:111)
+at com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking.handleException(TC001_EditFullCardPayBooking.java:145)
+at com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking.testAddPackage_AdditionalGuest(TC001_EditFullCardPayBooking.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPackage_AdditionalGuest -->
+        <test-method is-config="true" signature="checkStatusAndCaptureScreenshot(org.testng.ITestResult)[pri:0, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd]" started-at="2024-09-22T11:19:23 GMT-05:00" name="checkStatusAndCaptureScreenshot" finished-at="2024-09-22T11:19:23 GMT-05:00" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddPackage_AdditionalGuest status=FAILURE method=TC001_EditFullCardPayBooking.testAddPackage_AdditionalGuest()[pri:3, instance:com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking@54e22bdd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusAndCaptureScreenshot -->
+      </class> <!-- com.bookingzone.admin.FullPayment.TC001_EditFullCardPayBooking -->
+    </test> <!-- Booking Tests -->
+  </suite> <!-- Booking Suite -->
+</testng-results>
